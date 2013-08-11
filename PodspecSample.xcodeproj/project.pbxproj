@@ -18,6 +18,8 @@
 		D3FD5F9517B7B94800438300 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FD5F9417B7B94800438300 /* Default-568h@2x.png */; };
 		D3FD5F9817B7B94800438300 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD5F9717B7B94800438300 /* BCViewController.m */; };
 		D3FD5F9B17B7B94800438300 /* BCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3FD5F9917B7B94800438300 /* BCViewController.xib */; };
+		D3FD5FA517B7BBE200438300 /* BCLogicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD5FA417B7BBE200438300 /* BCLogicItem.m */; };
+		D3FD5FA917B7BCC200438300 /* BCCalcEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD5FA817B7BCC200438300 /* BCCalcEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		D3FD5F9617B7B94800438300 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
 		D3FD5F9717B7B94800438300 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
 		D3FD5F9A17B7B94800438300 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BCViewController.xib; sourceTree = "<group>"; };
+		D3FD5FA317B7BBE200438300 /* BCLogicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCLogicItem.h; sourceTree = "<group>"; };
+		D3FD5FA417B7BBE200438300 /* BCLogicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCLogicItem.m; sourceTree = "<group>"; };
+		D3FD5FA717B7BCC200438300 /* BCCalcEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCCalcEngine.h; sourceTree = "<group>"; };
+		D3FD5FA817B7BCC200438300 /* BCCalcEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCalcEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 		D3FD5F8417B7B94800438300 /* PodspecSample */ = {
 			isa = PBXGroup;
 			children = (
+				D3FD5FA617B7BCA900438300 /* CalcFramework */,
+				D3FD5FA117B7BBC200438300 /* FolderTest */,
 				D3FD5F8D17B7B94800438300 /* BCAppDelegate.h */,
 				D3FD5F8E17B7B94800438300 /* BCAppDelegate.m */,
 				D3FD5F9617B7B94800438300 /* BCViewController.h */,
@@ -105,6 +113,33 @@
 				D3FD5F9417B7B94800438300 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FD5FA117B7BBC200438300 /* FolderTest */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD5FA217B7BBC200438300 /* SecondFolder */,
+			);
+			name = FolderTest;
+			path = ../FolderTest;
+			sourceTree = "<group>";
+		};
+		D3FD5FA217B7BBC200438300 /* SecondFolder */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD5FA317B7BBE200438300 /* BCLogicItem.h */,
+				D3FD5FA417B7BBE200438300 /* BCLogicItem.m */,
+			);
+			path = SecondFolder;
+			sourceTree = "<group>";
+		};
+		D3FD5FA617B7BCA900438300 /* CalcFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD5FA717B7BCC200438300 /* BCCalcEngine.h */,
+				D3FD5FA817B7BCC200438300 /* BCCalcEngine.m */,
+			);
+			path = CalcFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +212,8 @@
 				D3FD5F8B17B7B94800438300 /* main.m in Sources */,
 				D3FD5F8F17B7B94800438300 /* BCAppDelegate.m in Sources */,
 				D3FD5F9817B7B94800438300 /* BCViewController.m in Sources */,
+				D3FD5FA517B7BBE200438300 /* BCLogicItem.m in Sources */,
+				D3FD5FA917B7BCC200438300 /* BCCalcEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
