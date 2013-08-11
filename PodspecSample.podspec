@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'PodspecSample'
-  s.version  = '1.0.1'
+  s.version  = '1.0.2'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS Calculator.'
   s.homepage = 'https://github.com/atomos86/PodspecSample.git'
